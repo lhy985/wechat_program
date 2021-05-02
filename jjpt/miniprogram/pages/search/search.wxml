@@ -1,0 +1,17 @@
+<view class='page_row' bindtap="suo">
+  	<view class="search">
+  		<view class="df search_arr">
+  			<icon class="searchcion" size='20' type='search'></icon>
+  			<input class="" bindinput="input_p" placeholder="请输入关键字" value="{{searchValue}}" />
+  		</view>
+  	</view>
+  	<view class='sousuo' catchtap="see">搜索</view>
+  </view>
+ 
+  <block wx:if='{{obj}}' wx:for='{{obj}}' wx:key=''>
+  	<view class="title">-----HUST 985家教平台-----</view>
+  	<view class="item">课程：{{item.name}}</view>
+  	<view class="item">教师：{{item.tea}}</view>
+		<view class="item">简介：{{item.text}}</view>
+		<view class="item">                  </view>
+  </block>

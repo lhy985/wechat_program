@@ -1,0 +1,37 @@
+<view class='indexcontainer'>
+  <!-- 第三部分 -->
+  <view class='selection'>
+    <!-- 头部文字 -->
+    <view class="header">
+      <text style='margin-left: 5px;'>找家教、上名校</text>
+      <text class='all'>2021.4.15</text>
+    </view>
+    <!-- 内容 -->
+    <view class='list-item' >
+      <!-- 文章图片 -->
+      <view class='list-item-image'>
+        <image src='imgs/11.png'  class="slide-image" mode='scaleToFill'></image>
+        <!-- 作者头像 -->
+        <image src='imgs/1.jpg'  class="avatar" mode='scaleToFill'></image>
+      </view>
+      <!-- 文章内容 -->
+      <view class='list-item-text'>
+        <!--<view class='list-item-text-title'>
+          <text>{{item.title}}</text>
+        </view>-->
+        <view class='list-item-text-context' >
+          <text>
+            
+                HUST家教服务平台是立足于华中科技大学优秀学生教师资源的专业家教信息平台。
+                作为家教老师，您可以在这里充分的展现自己的能力和才华，不断积累从教经验；作为家长您可以在这里放心选择适合孩子的的家教老师；作为学生，您可以在这里满足您多方面的求知需求，圆您努力拼搏之梦。目前，HUST家教平台已注册的各科家教有20余名，授课范围涵盖从学前教育到大学辅导，语数英应试教学到编程竞赛拔高训练。我们的家教老师均已经过严格的审核筛选和评估，提供给您的，就是最好的师资力量和教育资源。
+                
+我们郑重声明：
+1、我们具有严格的审核筛选和评估机制，对进行申请的家教信息进行全面审核认证之后才会进行信息录入，确保发布信息的准确性和有效性。
+2、涵盖多所顶尖学府的尖端师资力量，真正根据学生的需要针对性教学，安排最适合学生的家教和教学方法，为学生倾尽全力助您提高成绩。
+3、打造让家长满意的服务，学生家长在家教平台可以放心进行选择和试用，专人一对一提供对接，保证家长可以随时联系沟通学生学习状况。
+4、隐私的完全保密，一切本平台的可见信息均为可公开信息，私密信息一律不加显示，为您的隐私着想，您可放心在本平台进行浏览和操作。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

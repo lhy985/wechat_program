@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/shou/shou",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/wenzhang/wenzhang",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00CCFF",
+    "navigationBarTitleText": "家教服务平台",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#B1B1B1",
+    "selectedColor": "#333333",
+    "backgroundColor": "#318EE2",
+    "list": [
+      {
+        "pagePath": "pages/shou/shou",
+        "text": "首页",
+        "iconPath": "resource/imgs/3.png",
+        "selectedIconPath": "resource/imgs/3.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "找家教",
+        "iconPath": "resource/imgs/2.png",
+        "selectedIconPath": "resource/imgs/2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人",
+        "iconPath": "resource/imgs/1.png",
+        "selectedIconPath": "resource/imgs/1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
